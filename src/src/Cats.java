@@ -10,3 +10,10 @@ public class Cats extends Animals {
         return null;
     }
 }
+
+class Turkish_angora extends Cats {
+
+    public Turkish_angora(int paws, int tail) {
+        super(paws, tail);
+    }
+}
