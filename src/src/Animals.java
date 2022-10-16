@@ -1,5 +1,5 @@
-public class Animals {
-
+abstract public class Animals {
+    public abstract String voise();
 
 
 
