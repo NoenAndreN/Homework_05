@@ -10,3 +10,19 @@ public class Dogs extends Animals {
         return null;
     }
 }
+
+class German_Shepherd extends Dogs {
+
+    public German_Shepherd(int paws, int tail) {
+        super(paws, tail);
+    }
+}
+
+
+class Collie extends Dogs {
+
+    public Collie(int paws, int tail) {
+        super(paws, tail);
+
+    }
+}
