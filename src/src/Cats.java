@@ -9,6 +9,12 @@ public class Cats extends Animals {
         System.out.println("Cats says: няв!");
         return null;
     }
+
+    @Override
+    public String toString() {
+
+        return (super.toString());
+    }
 }
 
 class Turkish_angora extends Cats {

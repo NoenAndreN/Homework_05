@@ -9,6 +9,12 @@ public class Dogs extends Animals {
         System.out.println("Dogs says: гав-гав!");
         return null;
     }
+
+    @Override
+    public String toString() {
+
+        return (super.toString());
+    }
 }
 
 class German_Shepherd extends Dogs {
