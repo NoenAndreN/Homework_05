@@ -29,6 +29,5 @@ class Collie extends Dogs {
 
     public Collie(int paws, int tail) {
         super(paws, tail);
-
     }
 }

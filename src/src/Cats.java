@@ -12,7 +12,6 @@ public class Cats extends Animals {
 
     @Override
     public String toString() {
-
         return (super.toString());
     }
 }

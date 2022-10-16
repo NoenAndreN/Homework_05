@@ -16,7 +16,12 @@ abstract public class Animals {
 
 
     public static void main(String[] args) {
+        Dogs dogs = new Dogs(4, 1);
+        dogs.voise();
 
+        System.out.println(dogs.toString());
 
+        Cats cats = new Cats(4, 1);
+        cats.voise();
     }
 }
